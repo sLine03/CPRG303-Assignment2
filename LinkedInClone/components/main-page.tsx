@@ -148,7 +148,7 @@ const MainPage = () => {
     </View>
   )
 }
-
+{/*updating */}
 export default MainPage
 
 const styles = StyleSheet.create({

@@ -9,6 +9,7 @@ const LandingPage = () => {
       style={styles.container}
     >
       {/* LinkedIn Logo */}
+     
       <Image
         source={{
           uri: "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
