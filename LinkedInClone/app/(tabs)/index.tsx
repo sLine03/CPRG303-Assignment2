@@ -2,6 +2,8 @@ import { Text, View, Image, ScrollView, FlatList } from 'react-native';
 import { StyleSheet, StatusBar, Platform } from 'react-native';
 import { styles } from '@/components/styleSheet';
 import { posts, connections } from '@/data/mockData';
+import { Ionicons } from '@expo/vector-icons';
+
 
 export default function HomeTab() {
   return (
@@ -19,8 +21,22 @@ export default function HomeTab() {
       <FlatList 
         data={posts}
         keyExtractor={(post) => post.id}
+        
         ListHeaderComponent={() => (
-          /* Connections Section moved inside Header*/
+        <View> 
+          <View style={styles.searchWrapper}>
+            <Image 
+                source={{ uri: "https://randomuser.me/api/portraits/women/0.jpg" }}
+                style={styles.headerProfileImage}
+              />
+              <View style={styles.searchBarContainer}>
+                <Text style={styles.searchText}>Search</Text>
+              </View>
+             <View style={styles.headerProfileImage}>
+              <Ionicons name="chatbox-ellipses" size={26} color="#666" />
+            </View>
+            </View>
+          {/* Connections Section moved inside Header*/}
           <ScrollView 
             horizontal 
             showsHorizontalScrollIndicator={false} 
@@ -36,9 +52,10 @@ export default function HomeTab() {
                 <Text style={styles.connectionTitle} numberOfLines={1}>
                   {connection.title}
                 </Text>
-              </View>
-            ))}
-          </ScrollView>
+                </View>
+              ))}
+            </ScrollView>
+          </View>
         )}
         renderItem={({ item }) => (
           <View style={styles.postContainer}>

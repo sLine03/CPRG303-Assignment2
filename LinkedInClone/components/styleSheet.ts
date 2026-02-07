@@ -185,5 +185,35 @@ export const styles = StyleSheet.create({
   },
   secondaryButtonTextLanding: {
     color: "#fff",
+    },
+  searchWrapper: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    paddingHorizontal: 15,
+    paddingVertical: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#e0e0e0',
+  },
+  headerProfileImage: {
+    width: 34,
+    height: 34,
+    borderRadius: 17,
+    marginRight: 12,
+    marginLeft: 12
+  },
+  searchBarContainer: {
+    flex: 1,
+    backgroundColor: '#EEF3F8',
+    height: 36,
+    borderRadius: 40,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 10,
+  },
+  searchText: {
+    color: '#666',
+    fontSize: 14,
+    marginLeft: 8,
   },
 })
