@@ -1,7 +1,7 @@
-import { StyleSheet, Text, Image, TouchableOpacity } from "react-native";
+import { Text, Image, TouchableOpacity } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import React from "react";
-import { styles } from "./styleSheet";
+import { styles } from "../components/styleSheet";
 const LandingPage = () => {
   return (
     <LinearGradient
