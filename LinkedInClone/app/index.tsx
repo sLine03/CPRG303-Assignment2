@@ -1,10 +1,7 @@
 import { Text, View } from "react-native";
-<<<<<<< Updated upstream
-=======
 import LandingPage from '@/components/landing-page';
 import MainPage from '@/components/main-page';
 import { Stack } from "expo-router";
->>>>>>> Stashed changes
 
 export default function Index() {
   return (
