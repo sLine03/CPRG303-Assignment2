@@ -1,3 +1,5 @@
+//Home page 
+
 import { Text, View, Image, ScrollView, FlatList, StyleSheet, StatusBar, Platform, TouchableOpacity } from 'react-native';
 import { styles } from '@/components/styleSheet';
 import { posts, connections } from '@/data/mockData';
