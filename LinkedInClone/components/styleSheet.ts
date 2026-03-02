@@ -241,5 +241,50 @@ export const styles = StyleSheet.create({
   AlertPopButtonText: {
     color: 'white',
     fontWeight: 'bold',
-  }
+  },
+  post_container: {
+    flex: 1,
+    backgroundColor: "#1b1f23",
+  },
+  post_header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+    borderBottomWidth: 0.5,
+    borderBottomColor: '#333',
+  },
+  post_headerTitle: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  post_Button: {
+    backgroundColor: '#0a66c2',
+    paddingHorizontal: 20,
+    paddingVertical: 6,
+    borderRadius: 20,
+  },
+  post_ButtonText: {
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+  post_inputContainer: {
+    flexDirection: 'row',
+    padding: 15,
+  },
+  post_profilePic: {
+    width: 45,
+    height: 45,
+    borderRadius: 22.5,
+    marginRight: 15,
+  },
+  post_input: {
+    flex: 1,
+    color: '#fff',
+    fontSize: 18,
+    textAlignVertical: 'top',
+    paddingTop: 10,
+  },
 })

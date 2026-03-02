@@ -266,7 +266,11 @@ const styles = StyleSheet.create({
   tabBtnText: { fontSize: 13, color: '#888', fontWeight: '600' },
   tabBtnTextActive: { color: BLUE },
 
-  filtersScroll: { backgroundColor: '#fff', maxHeight: 52 },
+  filtersScroll: { 
+    backgroundColor: '#fff', 
+    maxHeight: 52 
+  },
+
   filtersContent: {
     paddingHorizontal: 12,
     paddingVertical: 10,
